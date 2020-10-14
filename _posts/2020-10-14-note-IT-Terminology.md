@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Java JDK 설치하기"
-subheading: JDK 11 설치
+title: "IT 용어 정리"
+subheading: IT 용어
 author: Jeffrey
-categories: Java
+categories: Note
 banner: "/assets/images/banners/java.jpeg"
-tags: java install jdk
+tags: It Terminology
 ---
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
