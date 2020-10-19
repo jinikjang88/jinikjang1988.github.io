@@ -8,7 +8,8 @@ banner: "/assets/images/banners/java.jpeg"
 tags: Java
 ---
 
-# JDK 11 설치 및 설정 하기 (Windows OS)  
+# JDK 11 설치 및 설정 하기 (Windows OS)    
+
 
 어떤 일을 하기에 앞서 우리는 질문을 먼저 던져 본다.  
 
@@ -38,8 +39,11 @@ JDK 란? (Java Development Kit)
 [https://profile.oracle.com/myprofile/account/create-account.jspx](https://profile.oracle.com/myprofile/account/create-account.jspx)
 
 ### 2. JDK 11 Download 하기
-가입이 완료되었다면 이제 JDK 11을 아래 사이트에서 다운로드 하자.  
-[https://www.oracle.com/java/technologies/javase-jdk11-downloads.html#license-lightbox](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html#license-lightbox)  
+가입이 완료되었다면 이제 JDK 11을 아래 사이트에서 (Windows x64 Compressed Archive) 항목을 다운로드 하자.  
+[https://www.oracle.com/java/technologies/javase-jdk11-downloads.html](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+
+
+  
 
 JDK 버전이 다양하게 있지만 버전 'JDK 11'을 받는 이유는 'JDK 11'이 LTS 버전이기 때문에 설치 한다.  
 LTS란 'Long Term Support'의 약자로 장기지원버전이기 때문이다.  
