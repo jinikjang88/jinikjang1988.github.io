@@ -8,9 +8,9 @@ banner: "/assets/images/banners/java.jpeg"
 tags: Java
 ---
 
-Study  
 
-# JDK 11 설치 및 설정 하기 (Windows OS)
+
+## JDK 11 설치 및 설정 하기 (Windows OS)
 
 
 어떤 일을 하기에 앞서 우리는 질문을 먼저 던져 본다.  
