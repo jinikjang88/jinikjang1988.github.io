@@ -7,10 +7,6 @@ categories: Java
 banner: "/assets/images/banners/java.jpeg"
 tags: Java
 ---
-  
-# JDK 11 설치 및 설정 하기 (Windows OS)
-
-
 
 ## 24시간 지난 파일 삭제 하기
 
