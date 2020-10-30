@@ -21,6 +21,8 @@ tags: Java
 
 ~/src/main/java/com/ikjini/filemanager/support/component/ExpiredFilesScheduler.java
 
+
+### 2. 로직 작성하기
 ```java
 package com.ikjini.filemanager.support.component;
 
@@ -108,7 +110,7 @@ public class ExpiredFilesScheduler {
 
 ```
 
-실행 로그를 확인해보자. 
+### 3. 검증하기
 
 ```log
 2020-10-30 17:08:00.004  INFO 41383 --- [   scheduling-1] o.s.scheduling.annotation.Scheduled      : Expired File delete Scheduler : 2020-10-30 17:08:00
