@@ -68,6 +68,7 @@ LTS란 'Long Term Support'의 약자로 장기지원버전이기 때문이다.
 ```shell script
 java -version
 ```
+
   
 ![java-01-06](../../../../assets/images/post/java_01/06.png)
 
