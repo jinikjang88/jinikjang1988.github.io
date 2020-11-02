@@ -86,10 +86,8 @@ LTS란 'Long Term Support'의 약자로 장기지원버전이기 때문이다.
   
 4.5 Hello World  
   
-```shell script
-notepad HelloWorld.java
-```
-  
+
+    notepad HelloWorld.java
 
 텍스트 편집 창에 다음과 같이 코딩한다.  
 
@@ -109,15 +107,15 @@ class HelloWorld {
 저장 후 해당 파일을 컴파일 해보자.  
 컴파일이 완성이 되면 해당 디렉토리에 HelloWorld.class 파일이 생성된다.  
   
-```shell script
-javac ./HelloWorld.java
-```
+
+    javac ./HelloWorld.java
+
 
 이제 처음으로 만들어본 프로그램을 실행해보자.  
 실행하면 아래의 그림과 같이 Hello World ~ 문구가 출력이 된다.  
     
-```shell script
-java HelloWorld
-```
+
+    java HelloWorld
+
 
 ![java-01-09](../../../../assets/images/post/java_01/09.png)  
