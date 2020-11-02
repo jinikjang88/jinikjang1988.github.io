@@ -30,7 +30,7 @@ JDK 란? (Java Development Kit)
 가입이 완료되었다면 이제 JDK 11을 아래 사이트에서 (Windows x64 Compressed Archive) 항목을 다운로드 하자.  
 [https://www.oracle.com/java/technologies/javase-jdk11-downloads.html](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 
-![](/assets/images/post/java_01/00.png)
+![java-01-00](/assets/images/post/java_01/00.png)
   
 
 JDK 버전이 다양하게 있지만 버전 'JDK 11'을 받는 이유는 'JDK 11'이 LTS 버전이기 때문에 설치 한다.  
@@ -47,4 +47,4 @@ LTS란 'Long Term Support'의 약자로 장기지원버전이기 때문이다.
 
 3.1 제어판 > 시스템 > '고급 시스템 설정' > 고급 탭 > 환경번수 클릭
 
-![]
+![java-01-01](./assets/images/post/java_01/01.png)
