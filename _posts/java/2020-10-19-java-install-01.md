@@ -64,8 +64,7 @@ LTS란 'Long Term Support'의 약자로 장기지원버전이기 때문이다.
 
 
 4.2 Java 버전 확인  
-  
-```shell script
+```
 java -version
 ```
 
