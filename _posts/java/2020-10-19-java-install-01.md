@@ -33,24 +33,24 @@ JDK 란? (Java Development Kit)
 ![java-01-00](../../../../assets/images/post/java_01/00.png)
   
 
-JDK 버전이 다양하게 있지만 버전 'JDK 11'을 받는 이유는 'JDK 11'이 LTS 버전이기 때문에 설치 한다.  
+JDK 버전이 다양하게 있지만 버전 'JDK 11'을 받는 이유는 'JDK 11'이 LTS 버전이기 때문에 설치 한다.    
 LTS란 'Long Term Support'의 약자로 장기지원버전이기 때문이다.  
 간략히 말하면 안정된 버전이다.  
 
-다운로드 위치는 고급 개발자에 따라 달라질 수 있으나, 통상 기본적으로 C드라이브의 Program Files의 Java 디렉토리를 만들어 압축을 풀도록 하자
+다운로드 위치는 고급 개발자에 따라 달라질 수 있으나, 통상 기본적으로 C드라이브의 Program Files의 Java 디렉토리를 만들어 압축을 풀도록 하자  
 
-    C:\Program Files\Java\jdk-11.0.8
+    C:\Program Files\Java\jdk-11.0.8  
 
 
-### 3. Windows 환경 변수 설정하기
-이제 윈도우 환경에서 Java를 실행할 수 있도록 환경 변수들을 설정하도록 하자.
+### 3. Windows 환경 변수 설정하기  
+이제 윈도우 환경에서 Java를 실행할 수 있도록 환경 변수들을 설정하도록 하자.  
 
-3.1 제어판 > 시스템 > '고급 시스템 설정' > 고급 탭 > 환경번수 클릭
+3.1 제어판 > 시스템 > '고급 시스템 설정' > 고급 탭 > 환경번수 클릭  
 
 ![java-01-01](../../../../assets/images/post/java_01/01.png)
 ![java-01-02](../../../../assets/images/post/java_01/02.png)
 
-3.2 시스템 변수 항목의 Path 설정 값을 Java 설치 된 곳으로 변경 
+3.2 시스템 변수 항목의 Path 설정 값을 Java 설치 된 곳으로 변경  
 ![java-01-03](../../../../assets/images/post/java_01/03.png)
 ![java-01-04](../../../../assets/images/post/java_01/04.png)
 
