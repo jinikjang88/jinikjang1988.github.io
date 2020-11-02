@@ -64,28 +64,22 @@ LTS란 'Long Term Support'의 약자로 장기지원버전이기 때문이다.
 
 
 4.2 Java 버전 확인  
-```
-java -version
-```
 
-  
+    java -version
+
 ![java-01-06](../../../../assets/images/post/java_01/06.png)
 
-
-4.3 Java Compile 명령어 확인
-    
-```shell script
-javac
-```
   
+4.3 Java Compile 명령어 확인  
+
+    javac
+
 ![java-01-07](../../../../assets/images/post/java_01/07.png)  
 
 
 4.4 Java 실행 명령어 확인  
   
-```shell script
-java
-```  
+    java
   
 ![java-01-08](../../../../assets/images/post/java_01/08.png)  
  
