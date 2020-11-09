@@ -4,7 +4,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 익지니의 자기주장 블로그
+title: 익지니의 기술 블로그
 email: jinik.jang.1988@gmail.com
 author: jinikjang88
 copyright: Copyright © 1988-2020
