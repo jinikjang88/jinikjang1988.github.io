@@ -97,5 +97,5 @@ volumes:
 ~/projectRoot] aws --endpoint-url="http://localhost:4572" s3 mb s3://s3-bucket
 ```
 
-정상설정이 되었는지 localstack 대시보드로 확인한다.  
+정상적으로 설정이 되었는지 localstack 대시보드로 확인한다.  
 [localstack-dashboard](http://localhost:8080/#!/infra)
