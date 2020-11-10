@@ -88,7 +88,6 @@ volumes:
 ~/projectRoot] aws configure
 ~/projectRoot] AWS Access Key ID [****************T6FG]: test
 ~/projectRoot] AWS Secret Access Key [****************ysGP]: test
-~/projectRoot] AWS Secret Access Key [****************ysGP]: test
 ~/projectRoot] Default region name [ap-northeast-2]: ap-southeast-2
 ~/projectRoot] Default output format [None]: json
 ```
