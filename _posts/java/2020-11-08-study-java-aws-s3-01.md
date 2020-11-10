@@ -68,9 +68,8 @@ volumes:
   localstack:
 ```
  
-설정 후 docker 를 실행한다.  
-
-```shell script
+설정 후 docker 를 실행한다.    
+```
 ~/projectRoot] docker-compose up
 ```
 
@@ -80,12 +79,12 @@ volumes:
 ### 2. AWS Cli 설치 및 로컬 설정하기
 
 터미널에서 AWS Cli 을 설치 한다.  
-```shell script
+```
 ~/projectRoot] brew install awscli
 ```
 
-설치가 완료 된 후 인증 관련 설정한다.  
-```shell script
+설치가 완료 된 후 인증 관련 설정한다.      
+```
 ~/projectRoot] aws configure
 ~/projectRoot] AWS Access Key ID [****************T6FG]: test
 ~/projectRoot] AWS Secret Access Key [****************ysGP]: test
@@ -94,8 +93,8 @@ volumes:
 ~/projectRoot] Default output format [None]: json
 ```
 
-설정 완료 후 localstack 의 s3 엔드포인트 및 버킷을 설정 및 생성한다.   
-```shell script
+설정 완료 후 localstack 의 s3 엔드포인트 및 버킷을 설정 및 생성한다.     
+```
 ~/projectRoot] aws --endpoint-url="http://localhost:4572" s3 mb s3://s3-bucket
 ```
 
