@@ -34,7 +34,7 @@ InputStream은 java.io에 있는 모든 입력 스트림들의 기본 클래스(
     한 바이트의 데이터를 읽어서 돌려준다. 값의 범위는 0에서 255이지, -128에서 127이 아니다. 스트림에 끝에 도달한 경우 -1을 돌려준다. 이 메소드는 입력을 받을 떄까지 기다린다.
 
 - public int read(byte[] buf) throws IOException  
-    바이트 배열로 읽어들인다. 이 메소드는 입력을 받을 때까지 기다린다. 그런 뒤 최대한 buf.length 개수의 바이트까지 읽어서 buf를 채운다. 실제로 읽어들인 바이트 개수를 돌려준다. 스트림 끝에 도달한 경우 -1dmf ehffuwnsek.
+    바이트 배열로 읽어들인다. 이 메소드는 입력을 받을 때까지 기다린다. 그런 뒤 최대한 buf.length 개수의 바이트까지 읽어서 buf를 채운다. 실제로 읽어들인 바이트 개수를 돌려준다. 스트림 끝에 도달한 경우 -1을 돌려준다.
 
 - public int read(byte[] buf, int off, int len) throws IOException  
     바이트 배열의 일부분으로 읽어드린다. 이 메소드는 입력을 받을 때까지 기다린다. 그런 뒤 buf의 off 위치부터 len byte까지 또는 buf의 끝에 도달할 떄까지 buf를 채운다.
