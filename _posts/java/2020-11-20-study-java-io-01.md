@@ -119,15 +119,12 @@ public class Translate {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
 
-        String from = "";
-        String to = "";
-
         if(args.length != 2) {
-            from = "abcd";
-            to = "1234";
+            String from = "abcd";
+            String to = "1234";
         } else {
-            from = args[0];
-            to = args[1];
+            String from = args[0];
+            String to = args[1];
         }
 
         int ch, i;
