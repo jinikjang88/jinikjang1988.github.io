@@ -87,24 +87,24 @@ for 루프는 Character 클래스의 isSpaceChar 메소드를 사용하여 읽�
 ### 2. OutputStream
 추상 클래스인 OutputStream은 InputStream과 유사하다. 이것은 출력할 바이트 스트림의 추상클래스를 제공한다. 
 
-- public OutputStream()
+- public OutputStream()  
     인자 없는 생성자를 지원한다.
     
-- public abstract void write(int b) throws IOException
+- public abstract void write(int b) throws IOException  
     b를 바이트형으로 변환하여 쓴다. 바이트가 int 형으로 전달되는데 그 이유는 종종 바이트에 산술연산에 의한 결과가 전달되기 때문이다. 
     바이트를 포함할 수 있는 형이 int이기 때문에 인자를 int로 했다. 이것은 byte로 형 변환(cast)하지 않고 결과를 전달할 수 있음을 의미한다. 
     그러나 하위 8비트만 전달되고 상위 24비트는 잃어버린다는 것에 유념해야 한다. 이 메소드는 쓰기가 완료될 때까지 기다린다.
     
-- public void write(byte[] buf) throws IOException
+- public void write(byte[] buf) throws IOException  
     바이트 배열을 쓴다. 이 메소드는 쓰기가 완료될 때까지 기다린다.
     
-- public void write(byte[] buf, int offset, int count) 
+- public void write(byte[] buf, int offset, int count)   
     바이트 배열을 buf[offset]부터 count 바이트 만큼까지를 쓴다. 그러나 배열의 끝에 도달하게 되면 쓰기를 중단한다.
     
-- public void flush() throws IOException
+- public void flush() throws IOException  
     스트림을 비운다. 그래서 버퍼 안의 바이트들이 쓰여진 뒤 이 메소드를 사용하여 비워지게 해야 한다.
     
-- public void close() throws IOException
+- public void close() throws IOException  
     스트림을 닫는다. 관련된 모든 리소스들을 반환하기 위해서 반드시 호출되어야 한다.
     만일 따로 선언되지 않았다면 위 메소드들은 출력 스트림에서 오류를 발견할 때 IOException을 던진다. 
 
